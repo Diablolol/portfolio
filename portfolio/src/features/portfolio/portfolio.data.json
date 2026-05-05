@@ -1,0 +1,70 @@
+﻿[
+  {
+    "id": "seo-article",
+    "title": "SEO Article",
+    "category": "Content",
+    "description": "Optimize ranking with quality writing.",
+    "details": "สร้างบทความ SEO ที่พร้อมช่วยให้เว็บไซต์ของคุณมีอันดับในเครื่องมือค้นหา พร้อมโครงสร้างเนื้อหาที่เป็นมิตรกับผู้อ่านและ crawler.",
+    "features": ["Content Strategy", "SEO Optimization", "Keyword Research", "Readable Copy"],
+    "technologies": ["WordPress", "Google Analytics"],
+    "year": "2023",
+    "client": "Creative Studio"
+  },
+  {
+    "id": "website-dev",
+    "title": "Website Dev",
+    "category": "Web Development",
+    "description": "Fullstack web development work.",
+    "details": "พัฒนาเว็บไซต์ทั้งหน้าบ้านและหน้าส่งข้อมูลหลังบ้าน โดยคำนึงถึง performance, accessibility และ UX ที่ตอบโจทย์ธุรกิจ.",
+    "features": ["Responsive Design", "API Integration", "CMS Setup", "Performance"] ,
+    "technologies": ["React", "Node.js", "Tailwind CSS"],
+    "year": "2023",
+    "client": "Local Business"
+  },
+  {
+    "id": "modern-ui",
+    "title": "Modern UI",
+    "category": "UI Design",
+    "description": "Clean and modern interface design.",
+    "details": "ออกแบบอินเทอร์เฟซสมัยใหม่ที่เน้นความเรียบง่าย ใช้งานง่าย และปรับให้เหมาะสมกับทุกอุปกรณ์.",
+    "features": ["User Testing", "Prototype", "Brand Aligned", "Accessible UI"],
+    "technologies": ["Figma", "Adobe XD"],
+    "year": "2023",
+    "client": "Startup Client"
+  },
+  {
+    "id": "ecommerce",
+    "title": "E-commerce Platform",
+    "category": "Web Development",
+    "description": "ระบบร้านค้าออนไลน์ครบวงจรพร้อมระบบชำระเงิน.",
+    "details": "พัฒนาแพลตฟอร์มร้านค้าออนไลน์ที่มีระบบจัดการสินค้า ระบบตะกร้า ระบบชำระเงิน และระบบติดตามคำสั่งซื้อ.",
+    "features": ["Shopping Cart", "Payment Gateway", "Order Tracking", "Admin Dashboard"],
+    "technologies": ["React", "Node.js", "MongoDB"],
+    "year": "2023",
+    "client": "E-commerce Startup",
+    "result": "+200% Sales Growth"
+  },
+  {
+    "id": "branding",
+    "title": "Brand Identity",
+    "category": "Graphic Design",
+    "description": "ออกแบบอัตลักษณ์แบรนด์ตั้งแต่โลโก้จนถึงสื่อทุกชิ้น.",
+    "details": "สร้างเอกลักษณ์แบรนด์ที่จำได้ตั้งแต่โลโก้ สีกลุ่ม จนถึงเอกสารทางการตลาด เพื่อให้แบรนด์ดูแข็งแรงและน่าเชื่อถือ.",
+    "features": ["Logo Design", "Brand Guidelines", "Color Palette", "Typography"],
+    "technologies": ["Figma", "Adobe Illustrator"],
+    "year": "2023",
+    "client": "Lifestyle Brand"
+  },
+  {
+    "id": "campaign",
+    "title": "Digital Campaign",
+    "category": "Marketing",
+    "description": "แคมเปญโฆษณาที่เพิ่มยอดขายกว่า 200%.",
+    "details": "จัดทำแคมเปญโฆษณาดิจิทัลที่มุ่งเน้น ROI โดยใช้ข้อมูลเชิงลึกและการทดสอบ A/B เพื่อเพิ่มผลลัพธ์สูงสุด.",
+    "features": ["Campaign Strategy", "Ad Optimization", "Analytics Reporting", "A/B Testing"],
+    "technologies": ["Google Ads", "Meta Ads", "SEMrush"],
+    "year": "2023",
+    "client": "Fashion Retailer",
+    "result": "+200% Sales Growth"
+  }
+]

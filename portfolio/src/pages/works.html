@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="th" class="h-full scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ผลงานทั้งหมด - พีรัชชัย Portfolio">
+    <meta name="keywords" content="ผลงาน, Portfolio, พีรัชชัย, Web Development, Design, Marketing">
+    <meta name="author" content="Creative Studio">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="ผลงานทั้งหมด - พีรัชชัย">
+    <meta property="og:description" content="ดูผลงานทั้งหมดของ พีรัชชัย ในด้าน Web Development, Design และ Marketing">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>ผลงาน | พีรัชชัย</title>
+    <link rel="canonical" href="https://diablolol-github-io.onrender.com/works">
+    <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Sora:wght@300;400;500;600;700&family=Sarabun:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        display: ["Playfair Display", "serif"],
+                        sans: ["Sora", "Sarabun", "sans-serif"],
+                    },
+                    colors: {
+                        slate: {
+                            850: "#1a2332",
+                            950: "#0d1117"
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="../styles/base.css">
+</head>
+
+<body class="h-full bg-slate-950 text-slate-200 font-sans">
+    <header role="banner" class="fixed top-0 left-0 right-0 z-50 glass-card">
+        <nav role="navigation" aria-label="Main navigation" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <a href="index.html" class="flex items-center gap-2" aria-label="Home">
+                    <div>
+                        <svg class="w-8 h-8 text-blue-400" viewBox="0 0 32 32" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 2L2 9L16 16L30 9L16 2Z" fill="currentColor" opacity="0.8" />
+                            <path d="M2 23L16 30L30 23" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                            <path d="M2 16L16 23L30 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <span class="text-xl font-bold font-display gradient-text">พีรัชชัย</span>
+                </a>
+
+                <ul class="hidden md:flex items-center gap-1" role="menubar">
+                    <li role="none"><a role="menuitem" href="index.html#home"
+                            class="nav-link px-4 py-2 text-sm font-medium hover:text-blue-400 transition-colors">หน้าแรก</a>
+                    </li>
+                    <li role="none"><a role="menuitem" href="index.html#services"
+                            class="nav-link px-4 py-2 text-sm font-medium hover:text-blue-400 transition-colors">บริการ</a>
+                    </li>
+                    <li role="none"><a role="menuitem" href="index.html#skills"
+                            class="nav-link px-4 py-2 text-sm font-medium hover:text-blue-400 transition-colors">ทักษะ</a>
+                    </li>
+                    <li role="none"><a role="menuitem" href="works.html"
+                            class="nav-link px-4 py-2 text-sm font-medium hover:text-blue-400 transition-colors nav-active">ผลงาน</a>
+                    </li>
+                    <li role="none"><a role="menuitem" href="index.html#contact"
+                            class="nav-link px-4 py-2 text-sm font-medium hover:text-blue-400 transition-colors">ติดต่อ</a>
+                    </li>
+                </ul>
+
+                <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg hover:bg-slate-800 transition-colors"
+                    aria-label="Toggle menu" aria-expanded="false">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+
+            <div id="mobile-menu" class="hidden md:hidden pb-4">
+                <ul class="flex flex-col gap-2">
+                    <li><a href="index.html#home"
+                            class="mobile-nav-link block px-4 py-2 rounded-lg hover:bg-slate-800 transition-colors">หน้าแรก</a>
+                    </li>
+                    <li><a href="index.html#services"
+                            class="mobile-nav-link block px-4 py-2 rounded-lg hover:bg-slate-800 transition-colors">บริการ</a>
+                    </li>
+                    <li><a href="index.html#skills"
+                            class="mobile-nav-link block px-4 py-2 rounded-lg hover:bg-slate-800 transition-colors">ทักษะ</a>
+                    </li>
+                    <li><a href="works.html"
+                            class="mobile-nav-link block px-4 py-2 rounded-lg hover:bg-slate-800 transition-colors">ผลงาน</a>
+                    </li>
+                    <li><a href="index.html#contact"
+                            class="mobile-nav-link block px-4 py-2 rounded-lg hover:bg-slate-800 transition-colors">ติดต่อ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="pt-20">
+        <section aria-labelledby="works-heading" class="py-24">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <header class="text-center mb-16">
+                    <h1 id="works-heading"
+                        class="font-display text-3xl sm:text-4xl lg:text-5xl font-bold mb-4"><span
+                            class="gradient-text">ผลงานทั้งหมด</span></h1>
+                    <p class="text-slate-400 text-lg max-w-2xl mx-auto">คอลเลกชันผลงานที่เราภูมิใจนำเสนอ</p>
+                </header>
+
+                <div class="mb-12">
+                    <div class="flex flex-col sm:flex-row gap-4 justify-between items-center mb-8">
+                        <div role="tablist" aria-label="Portfolio categories"
+                            class="flex flex-wrap justify-center gap-2">
+                            <button role="tab" aria-selected="true" data-category="all"
+                                class="portfolio-filter tab-active px-6 py-3 rounded-full text-sm font-medium transition-all duration-300">
+                                ทั้งหมด
+                            </button>
+                            <button role="tab" aria-selected="false" data-category="Web Development"
+                                class="portfolio-filter px-6 py-3 rounded-full text-sm font-medium bg-slate-800 hover:bg-slate-700 transition-all duration-300">
+                                Web Development
+                            </button>
+                            <button role="tab" aria-selected="false" data-category="UI Design"
+                                class="portfolio-filter px-6 py-3 rounded-full text-sm font-medium bg-slate-800 hover:bg-slate-700 transition-all duration-300">
+                                UI Design
+                            </button>
+                            <button role="tab" aria-selected="false" data-category="Graphic Design"
+                                class="portfolio-filter px-6 py-3 rounded-full text-sm font-medium bg-slate-800 hover:bg-slate-700 transition-all duration-300">
+                                Graphic Design
+                            </button>
+                            <button role="tab" aria-selected="false" data-category="Content"
+                                class="portfolio-filter px-6 py-3 rounded-full text-sm font-medium bg-slate-800 hover:bg-slate-700 transition-all duration-300">
+                                Content
+                            </button>
+                            <button role="tab" aria-selected="false" data-category="Marketing"
+                                class="portfolio-filter px-6 py-3 rounded-full text-sm font-medium bg-slate-800 hover:bg-slate-700 transition-all duration-300">
+                                Marketing
+                            </button>
+                        </div>
+                        <div class="relative">
+                            <input type="text" id="search-input" placeholder="ค้นหาผลงาน..."
+                                class="w-64 px-4 py-3 bg-slate-800/50 border border-slate-700 rounded-xl focus:outline-none focus:border-blue-500 transition-colors pl-12">
+                            <svg class="w-5 h-5 absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="works-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+
+                <div id="no-results" class="hidden text-center py-12">
+                    <svg class="w-16 h-16 mx-auto text-slate-600 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 12h6m-6-4h6m2 5.291A7.962 7.962 0 0112 15c-2.34 0-4.29-.966-5.5-2.5" />
+                    </svg>
+                    <h3 class="text-xl font-semibold text-slate-400 mb-2">ไม่พบผลงาน</h3>
+                    <p class="text-slate-500">ลองเปลี่ยนคำค้นหาหรือหมวดหมู่</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo" class="py-12 border-t border-slate-800 bg-slate-950">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div class="md:col-span-2">
+                    <a href="index.html#home" class="flex items-center gap-2 mb-4 inline-flex">
+                        <svg class="w-8 h-8 text-blue-400" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 2L2 9L16 16L30 9L16 2Z" fill="currentColor" opacity="0.8" />
+                            <path d="M2 23L16 30L30 23" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                            <path d="M2 16L16 23L30 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                        </svg>
+                        <span class="text-xl font-bold gradient-text">พีรัชชัย</span>
+                    </a>
+                    <p class="text-slate-400 text-sm max-w-md">บริการครบวงจรด้าน Digital Marketing, Web Development และ Graphic Design ที่ช่วยให้ธุรกิจของคุณเติบโตอย่างยั่งยืน</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Quick Links</h4>
+                    <nav aria-label="Footer navigation">
+                        <ul class="space-y-2 text-sm text-slate-400">
+                            <li><a href="index.html#home" class="hover:text-blue-400 transition-colors">หน้าแรก</a></li>
+                            <li><a href="index.html#services" class="hover:text-blue-400 transition-colors">บริการ</a></li>
+                            <li><a href="index.html#skills" class="hover:text-blue-400 transition-colors">ทักษะ</a></li>
+                            <li><a href="works.html" class="hover:text-blue-400 transition-colors">ผลงาน</a></li>
+                            <li><a href="index.html#contact" class="hover:text-blue-400 transition-colors">ติดต่อ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Legal</h4>
+                    <ul class="space-y-2 text-sm text-slate-400">
+                        <li><a href="index.html#privacy" class="hover:text-blue-400 transition-colors">Privacy Policy</a></li>
+                        <li><a href="index.html#terms" class="hover:text-blue-400 transition-colors">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-sm text-slate-500">© <span id="copyright-year">2024</span> Creative Studio. All rights reserved.</p>
+                <p class="text-sm text-slate-500">Made with พีรัชชัย ❤️ in Bangkok, Thailand</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="../pages/works.js"></script>
+</body>
+
+</html>

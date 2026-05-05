@@ -1,0 +1,121 @@
+﻿:root {
+  color-scheme: dark;
+  font-family: "Sora", "Sarabun", system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #0d1117;
+  color: #e2e8f0;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+.nav-active {
+  color: #60a5fa;
+  border-bottom: 2px solid #60a5fa;
+}
+
+.tab-active {
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+  color: white;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(59, 130, 246, 0.15);
+}
+
+.skill-badge:hover {
+  transform: scale(1.05);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #60a5fa, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glass-card {
+  background: rgba(30, 41, 59, 0.72);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(148, 163, 184, 0.12);
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.float-animation {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.stagger-1 {
+  animation-delay: 0.1s;
+}
+
+.stagger-2 {
+  animation-delay: 0.2s;
+}
+
+.stagger-3 {
+  animation-delay: 0.3s;
+}
+
+.stagger-4 {
+  animation-delay: 0.4s;
+}
+
+.tab-content-item {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.tab-content-item.hidden {
+  display: none !important;
+}
+
+.tab-content-item.visible {
+  display: block;
+  animation: fadeInUp 0.3s ease-in-out forwards;
+}
+
+#app {
+  min-height: 100vh;
+}

@@ -1,0 +1,44 @@
+﻿<section id="portfolio" aria-labelledby="portfolio-heading" class="py-24 bg-slate-900/50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <header class="text-center mb-16">
+            <h2 id="portfolio-heading"
+                class="font-display text-3xl sm:text-4xl lg:text-5xl font-bold mb-4"><span
+                    class="gradient-text">ผลงานที่ผ่านมา</span></h2>
+            <p class="text-slate-400 text-lg max-w-2xl mx-auto">ตัวอย่างผลงานที่เราภูมิใจนำเสนอ</p>
+        </header>
+
+        <div id="portfolio-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+
+        <div class="flex justify-center w-full rounded-lg p-4 text-center mt-12 hover:text-indigo-500 font-bold">
+            <button id="view-all-portfolio"
+                class="inline-flex items-center justify-center bg-gray-800 p-4 rounded-xl">ดูผลงานทั้งหมด</button>
+        </div>
+    </div>
+
+    <div id="portfolio-modal"
+        class="fixed inset-0 z-50 hidden items-start justify-center p-4 bg-slate-950/80 backdrop-blur-sm overflow-y-auto">
+        <div class="glass-card rounded-2xl max-w-4xl w-full mt-8 mb-8 p-8">
+            <div class="flex justify-between items-center mb-6">
+                <a href="works.html" id="portfolio-modal-title" class="text-3xl font-bold hover:text-indigo-500">ผลงานทั้งหมด</a>
+                <button id="close-portfolio" class="p-2 hover:bg-slate-800 rounded-lg transition-colors"
+                    aria-label="Close">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+
+            <div id="portfolio-details-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6"></div>
+
+            <div id="portfolio-detail-view" class="hidden mt-8">
+                <div class="flex justify-between items-center mb-6">
+                    <h3 class="text-2xl font-semibold">รายละเอียดผลงาน</h3>
+                    <button id="back-to-gallery"
+                        class="px-4 py-2 bg-slate-800 text-slate-200 rounded-xl hover:bg-slate-700 transition-colors">กลับสู่แกลเลอรี</button>
+                </div>
+                <div id="portfolio-detail-content"></div>
+            </div>
+        </div>
+    </div>
+</section>

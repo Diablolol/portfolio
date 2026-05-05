@@ -1,0 +1,12 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio project scaffold with reusable core, feature modules, and static pages.",
+  "scripts": {
+    "start": "npx live-server public --port=8080 --open=../src/pages/index.html",
+    "build": "echo \"No build step configured.\""
+  },
+  "author": "",
+  "license": "MIT"
+}

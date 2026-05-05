@@ -1,0 +1,63 @@
+﻿<header role="banner" class="fixed top-0 left-0 right-0 z-50 glass-card">
+    <nav role="navigation" aria-label="Main navigation" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="#home" class="flex items-center gap-2" aria-label="Home">
+                <div>
+                    <svg class="w-8 h-8 text-blue-400" viewBox="0 0 32 32" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 2L2 9L16 16L30 9L16 2Z" fill="currentColor" opacity="0.8" />
+                        <path d="M2 23L16 30L30 23" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                        <path d="M2 16L16 23L30 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                </div>
+                <span id="nav-title" class="text-xl font-bold font-display gradient-text">พีรัชชัย</span>
+            </a>
+
+            <ul class="hidden md:flex items-center gap-1" role="menubar">
+                <li role="none"><a role="menuitem" href="#home"
+                        class="nav-link px-4 py-2 text-sm font-medium hover:text-blue-400 transition-colors nav-active">หน้าแรก</a>
+                </li>
+                <li role="none"><a role="menuitem" href="#services"
+                        class="nav-link px-4 py-2 text-sm font-medium hover:text-blue-400 transition-colors">บริการ</a>
+                </li>
+                <li role="none"><a role="menuitem" href="#skills"
+                        class="nav-link px-4 py-2 text-sm font-medium hover:text-blue-400 transition-colors">ทักษะ</a>
+                </li>
+                <li role="none"><a role="menuitem" href="#portfolio"
+                        class="nav-link px-4 py-2 text-sm font-medium hover:text-blue-400 transition-colors">ผลงาน</a>
+                </li>
+                <li role="none"><a role="menuitem" href="#contact"
+                        class="nav-link px-4 py-2 text-sm font-medium hover:text-blue-400 transition-colors">ติดต่อ</a>
+                </li>
+            </ul>
+
+            <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg hover:bg-slate-800 transition-colors"
+                aria-label="Toggle menu" aria-expanded="false">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden pb-4">
+            <ul class="flex flex-col gap-2">
+                <li><a href="#home"
+                        class="mobile-nav-link block px-4 py-2 rounded-lg hover:bg-slate-800 transition-colors">หน้าแรก</a>
+                </li>
+                <li><a href="#services"
+                        class="mobile-nav-link block px-4 py-2 rounded-lg hover:bg-slate-800 transition-colors">บริการ</a>
+                </li>
+                <li><a href="#skills"
+                        class="mobile-nav-link block px-4 py-2 rounded-lg hover:bg-slate-800 transition-colors">ทักษะ</a>
+                </li>
+                <li><a href="#portfolio"
+                        class="mobile-nav-link block px-4 py-2 rounded-lg hover:bg-slate-800 transition-colors">ผลงาน</a>
+                </li>
+                <li><a href="#contact"
+                        class="mobile-nav-link block px-4 py-2 rounded-lg hover:bg-slate-800 transition-colors">ติดต่อ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
